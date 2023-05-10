@@ -1,4 +1,6 @@
 import styles from "./Cardapio.module.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function Cardapio() {
   return (
@@ -11,6 +13,8 @@ function Cardapio() {
       <div className={styles.bebidas}></div>
 
       <main className={styles.my_Cardapio_Main}>
+
+
         <div className={styles.card_Cardapio}>
           <img src={"https://jcconcursos.com.br/media/_versions/noticia/prato-feito_1_widelg.jpg"}></img>
           <h2>Filé com fritas</h2>

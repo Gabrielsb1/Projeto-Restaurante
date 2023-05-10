@@ -1,5 +1,8 @@
 
-
+.container {
+    margin-top: 1px;
+    background-color: #453528;
+}
 .banner1{
     background-image: url('../img/Banner.png');
     background-position: 50% 50%;

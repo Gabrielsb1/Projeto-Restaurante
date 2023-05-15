@@ -1,0 +1,5 @@
+package com.example.cardapio.entities;
+
+public record FoodResponseDTO(Long id, String title, String urlimg, Integer price){
+
+}

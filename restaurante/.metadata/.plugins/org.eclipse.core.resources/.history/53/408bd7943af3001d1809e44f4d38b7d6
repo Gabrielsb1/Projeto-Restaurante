@@ -1,0 +1,5 @@
+package com.example.cardapio.repositories;
+
+public interface FoodRepository JpaRepository<Food, Long> {
+
+}
